@@ -4,7 +4,7 @@
 
 # From Simulations to Reality: Dark Energy Reconstruction with Simulated SNIa data from the Vera C. Rubin Observatory
 
-This repository contains the code and data used in our paper https://arxiv.org/abs/2402.18124. Our study leverages an Artificial Neural Network (ANN) to analyze Supernova Ia (SNIa) distance moduli ($\mu(z)$) and their corresponding error estimates, using three years of simulated SNIa data from the LSST. By incorporating advanced techniques like neural networks, Monte Carlo dropout for uncertainty quantification, and tuning hyperparameters through genetic algorithms, our work presents a model-independent reconstruction of dark energy consistent with theoretical models and real data observations. Our methodology employs the Tensorflow and DEAP libraries with our [NNOGADA framework](https://github.com/igomezv/Nnogada) for efficient and effective tuning of neural network hyperparameters.
+This repository contains the code and data used in our paper https://arxiv.org/abs/2402.18124 . Our work presents a model-independent neural network reconstruction of dark energy consistent with theoretical models and real data observations, we use Supernova Ia (SNIa) distance moduli ($\mu(z)$) and their corresponding statistical errors from three years of simulated SNIa data from the LSST. We incorporate advanced techniques like neural networks, Monte Carlo dropout for uncertainty quantification, and tuning hyperparameters through genetic algorithms using the Tensorflow and DEAP libraries with our [NNOGADA framework](https://github.com/igomezv/Nnogada) for efficient and effective tuning of neural network hyperparameters.
 
 
 ## Repository Structure

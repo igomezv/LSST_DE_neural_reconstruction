@@ -4,7 +4,7 @@
 
 # From Simulations to Reality: Dark Energy Reconstruction with Simulated SNIa data from the Vera C. Rubin Observatory
 
-This repository contains the code and data used in our paper https://arxiv.org/abs/2402.18124. Our study leverages an Artificial Neural Network (ANN) to analyze Supernova Ia (SNIa) distance moduli ($\mu(z)$) and their corresponding error estimates, using three years of simulated SNIa data from the LSST. By incorporating advanced techniques like neural networks, Monte Carlo dropout for uncertainty quantification, and tuning hyperparameters through genetic algorithms, our work presents a model-independent reconstruction of dark energy consistent with theoretical models and real data observations. Our methodology employs the Tensorflow and DEAP libraries with our [NNOGADA framework](https://github.com/igomezv/Nnogada) for efficient and effective tuning of neural network hyperparameters.
+This repository contains the code and data used in our paper https://arxiv.org/abs/2402.18124 . Our work presents a model-independent neural network reconstruction of dark energy consistent with theoretical models and real data observations, we use Supernova Ia (SNIa) distance moduli ($\mu(z)$) and their corresponding statistical errors from three years of simulated SNIa data from the LSST. We incorporate advanced techniques like neural networks, Monte Carlo dropout for uncertainty quantification, and tuning hyperparameters through genetic algorithms using the Tensorflow and DEAP libraries with our [NNOGADA framework](https://github.com/igomezv/Nnogada) for efficient and effective tuning of neural network hyperparameters.
 
 
 ## Repository Structure
@@ -14,11 +14,10 @@ This repository contains the code and data used in our paper https://arxiv.org/a
 - **chains_mcmc/**: MCMC chains for Bayesian analysis.
 - **chains_cov/**: Covariance chains for error estimation.
 - **models/**: Trained ANN models.
-- **Exploratory_test.ipynb**: Notebook for initial data exploration.
-- **Large_data_cov_txt.ipynb**: Notebook for handling large covariance matrices.
-- **Load_large_model.ipynb**: Notebook for loading and testing large ANN models.
-- **Second_neural_model_large_data.ipynb**: Main notebook for neural reconstruction of SNeIa.
-- **Tunning_neural_model.ipynb**: Hyperparameter tuning of the neural model using [nnogada](https://github.com/igomezv/nnogada).
+- **exploratory_test.ipynb**: Notebook for initial data exploration.
+- **load_model.ipynb**: Notebook for loading and testing large ANN models.
+- **train_model.ipynb**: Main notebook for neural reconstruction of SNeIa.
+- **tunning_neural_model.ipynb**: Hyperparameter tuning of the neural model using [nnogada](https://github.com/igomezv/nnogada).
 - **bayesian_lsst.ipynb**: Notebook for Bayesian analysis of LSST data.
 
   
@@ -33,7 +32,7 @@ We welcome contributions from the community. If you'd like to improve the models
 
 ## Citing Our Work
 
-If you use the data or methodologies from this repository in your research, please cite our paper:
+If you use the data or methodologies from this repository in your research, please cite our work:
 
 ```bibtex
 @article{fromsimstoreality2024,

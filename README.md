@@ -32,7 +32,7 @@ We welcome contributions from the community. If you'd like to improve the models
 
 ## Citing Our Work
 
-If you use the data or methodologies from this repository in your research, please cite our paper:
+If you use the data or methodologies from this repository in your research, please cite our work:
 
 ```bibtex
 @article{fromsimstoreality2024,

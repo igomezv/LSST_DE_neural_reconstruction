@@ -36,14 +36,11 @@ If you use the data or methodologies from this repository in your research, plea
 
 ```bibtex
 @article{fromsimstoreality2024,
-title={From Simulations to Reality: Dark Energy Reconstruction with Simulated SNIa data from the Vera C. Rubin Observatory},
-author={Your Name and Co-authors},
-journal={Journal Name},
-year={2024},
-volume={Volume},
-pages={Page Numbers},
-doi={DOI},
-arxivId={2402.18124}
+  title={From Simulations to Reality: Dark Energy Reconstruction with Simulated SNIa data from the Vera C. Rubin Observatory},
+  author={Mitra, Ayan and Gomez-Vargas, Isidro and Zarikas, Vasilios},
+  journal={arXiv preprint arXiv:2402.18124},
+  year={2024},
+ arxivId={2402.18124}
 }
 ```
 

@@ -34,7 +34,7 @@ We welcome contributions from the community. If you'd like to improve the models
 
 If you use the data or methodologies from this repository in your research, please cite our work.
 
-- This work:
+- This paper:
 ```bibtex
 @article{fromsimstoreality2024,
   title={From Simulations to Reality: Dark Energy Reconstruction with Simulated SNIa data from the Vera C. Rubin Observatory},

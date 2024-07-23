@@ -20,6 +20,10 @@ This repository contains the code and data used in our paper https://arxiv.org/a
 - **tunning_neural_model.ipynb**: Hyperparameter tuning of the neural model using [`nnogada`](https://github.com/igomezv/nnogada).
 - **bayesian_lsst.ipynb**: Notebook for Bayesian analysis of LSST data.
 
+
+## Usage
+
+We recommend using an anaconda environment with Python 3.8 (`conda create -n myenv python=3.8`) and install `conda install numpy matplotlib pandas scikit-learn seaborn getdist fgivenx tensorflow` and `pip install astroNN`. And clone or install `nnogada` from https://github.com/igomezv/nnogada.
   
 ## Data References
   -Ayan Mitra, Richard Kessler, Surhud More, Renee Hlozek, LSST Dark Energy Science Collaboration, et al. Using host galaxy photometric redshifts to improve cosmological constraints with type ia supernovae in the lsst era. The Astrophysical Journal, 944(2):212, 2023.

@@ -23,7 +23,7 @@ This repository contains the code and data used in our paper https://arxiv.org/a
 
 ## Usage
 
-- We recommend using an anaconda environment with Python 3.8;
+- We recommend using an anaconda environment with Python 3.8:
   - `conda create -n neuralsst python=3.8`.
   - `conda activate neuralsst`.
 

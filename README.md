@@ -28,8 +28,8 @@ This repository contains the code and data used in our paper https://arxiv.org/a
   - `conda activate neuralsst`.
 
 - Then install:
-  - `conda install numpy matplotlib pandas scikit-learn seaborn getdist fgivenx tensorflow`
-  - `pip install astroNN`.
+  - `conda install numpy matplotlib pandas scikit-learn seaborn fgivenx tensorflow`
+  - `pip install getdist fgivenx astroNN`.
 
 - Finally, if you want to retrain the neural network models with genetic algorithms, please clone or download `nnogada` from [here](https://github.com/igomezv/Nnogada).
   

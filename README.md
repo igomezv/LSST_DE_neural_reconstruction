@@ -2,12 +2,12 @@
   <img src="https://img.shields.io/badge/arXiv-2402.18124-b31b1b.svg" alt="arXiv:2402.18124">
 </a>
 
-# Dark energy reconstruction analysis with artificial neural networks: Application on simulated Supernova Ia data from Rubin Observatory
+## Dark energy reconstruction analysis with artificial neural networks: Application on simulated Supernova Ia data from Rubin Observatory
 
 This repository contains the code and data used in our paper https://arxiv.org/abs/2402.18124  (accepted in Physics of the Dark Universe). Our work presents a model-independent neural network reconstruction of dark energy consistent with theoretical models and real data observations, we use Supernova Ia (SNIa) distance moduli $$\mu(z)$$ and their corresponding statistical errors from three years of simulated SNIa data from the LSST. We incorporate advanced techniques like neural networks, Monte Carlo dropout for uncertainty quantification, and tuning hyperparameters through genetic algorithms using the Tensorflow and DEAP libraries with our [`nnogada` framework](https://github.com/igomezv/Nnogada) for efficient and effective tuning of neural network hyperparameters.
 
 
-## Repository Structure
+### Repository Structure
 
 - **Data_SNIa_LSST/**: LSST simulated SNIa data used in our analysis.
 - **Figures/**: Figures generated from our analysis.
@@ -21,7 +21,7 @@ This repository contains the code and data used in our paper https://arxiv.org/a
 - **bayesian_lsst.ipynb**: Notebook for Bayesian analysis of LSST data.
 
 
-## Usage
+### Usage
 
 - We recommend using an anaconda environment with Python 3.8:
   - `conda create -n neuralsst python=3.8`.
@@ -33,16 +33,16 @@ This repository contains the code and data used in our paper https://arxiv.org/a
 
 - Finally, if you want to retrain the neural network models with genetic algorithms, please clone or download `nnogada` from [here](https://github.com/igomezv/Nnogada).
   
-## Data References
+### Data References
   -Ayan Mitra, Richard Kessler, Surhud More, Renee Hlozek, LSST Dark Energy Science Collaboration, et al. Using host galaxy photometric redshifts to improve cosmological constraints with type ia supernovae in the lsst era. The Astrophysical Journal, 944(2):212, 2023.
 
 
-## Contributing
+### Contributing
 
 We welcome contributions from the community. If you'd like to improve the models, suggest new features, or report issues, please feel free to open an issue or submit a pull request.
 
 
-## Citing Our Work
+### Citing Our Work
 
 If you use the data or methodologies from this repository in your research, please cite our work.
 

@@ -52,8 +52,11 @@ If you use the data or methodologies from this repository in your research, plea
   title={Dark energy reconstruction analysis with artificial neural networks: Application on simulated Supernova Ia data from Rubin Observatory},
   author={Mitra, Ayan and Gomez-Vargas, Isidro and Zarikas, Vasilios},
   journal={Physics of the Dark Universe},
-  year={2024},
- arxivId={2402.18124}
+  volume = {46},
+  pages = {101706},
+  year = {2024},
+  issn = {2212-6864},
+  doi = {https://doi.org/10.1016/j.dark.2024.101706},
 }
 ```
 
